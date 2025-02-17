@@ -1,0 +1,55 @@
+body {
+    background-color: #fff5f0;
+    font-family: "Quicksand", sans-serif;
+}
+
+.navbar {
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-brand img {
+    width: 160px;
+}
+
+.d-flex {
+    width: 70%;
+}
+
+.d-flex .form-control {
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    width: 70%;
+}
+
+.d-flex button {
+    border: 0;
+}
+
+.navbar-brand,
+.nav-link,
+.btn {
+    color: rgb(14, 13, 13);
+    font-family: 'Playfair Display', serif;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    margin-top: 10%;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+    transition: background-color 0.3s;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
